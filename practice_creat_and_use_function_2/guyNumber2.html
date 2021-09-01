@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function perimeterOfCircle(radius){
+      result=Math.PI*2*radius;
+      return result;
+  }
+  function areaOfCircle(radius){
+      result=Math.PI*radius*radius;
+      return result;
+  }
+  let radius=prompt("Input radius of circle");
+  radius=parseFloat(radius);
+  perimeter=perimeterOfCircle(radius);
+  area=areaOfCircle(radius);
+  console.log(perimeter);
+  console.log(area);
+</script>
+</body>
+</html>

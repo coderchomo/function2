@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function changeIndexOfArray(array){
+      for(let i=0;i<array.length/2;i++){
+          let a=array[i];
+          array[i]=array[array.length-1-i];
+          array[array.length-1-i]=a;
+      }return array
+  }
+</script>
+</body>
+</html>

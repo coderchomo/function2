@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isAvailableInArray(character){
+        let array=[1,2,1,3,1];
+        let count=0;
+        for(let i=0;i<array.length;i++){
+            if(character==array[i]){
+                count++;
+            }
+        }if(count==0)return-1;
+        else return count;
+    }
+</script>
+</body>
+</html>
